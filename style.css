@@ -1,0 +1,45 @@
+body {
+    background-color: #090708;
+}
+
+#container {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#searchBar {
+    background-color: transparent;
+    color: #F0ECED;
+
+    padding: 1em;
+
+    border: none;
+    border-bottom: 1px solid #4B3A3E;
+
+    width: 30em;
+    
+    text-align: center;
+}
+
+#searchBar:focus {
+    border-bottom-color: #F000A8;
+}
+
+#searchButton {
+    margin: 1em;
+    padding: 1em;
+
+    background: transparent;
+    color: #CDC0C3;
+
+    border: none;
+}
+
+#searchButton:hover {
+    color: #ff7f50;
+}
+
+#searchButton:focus {
+    color: #ff4500;
+}
+
